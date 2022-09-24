@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@400;700&display=swap');
+
+:root {
+    --color-primary: #F03C42;
+    --color-blue: #222374;
+    --color-black: #000000;
+    --color-white: #FFFFFF;
+    --ligth-grey: #ccc;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+a, a:hover {
+    text-decoration: none;
+    color: unset;
+}
+
+.container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: var(--color-primary);
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15px;
+}
+
+.company h1 {
+    color: var(--color-white);
+    font-size: 18px;
+}
+
+.instagram {
+display: flex;
+justify-content: flex-end;
+align-items: center;
+}
+
+.instagram img {
+    height: 30px;
+    width: 30px;
+}
+
+.header-content a {
+    color: var(--color-white);
+    display: flex;
+    justify-content: flex-end;
+    padding-left: 10px;
+}
+
+#our-space {
+    background-color: var(--color-blue);
+    padding: 20px;
+}
+
+#our-space h2 {
+color: var(--color-white);
+margin-bottom: 20px;
+font-size: 32px;
+}
+
+.space-fit-card {
+    background-color: var(--ligth-grey);
+    min-height: 127px;
+    padding: 20px 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.space-fit-card h3 {
+    color: var(--color-black);
+    font-size: 20px;
+}
+
+.space-fit-card p {
+    color: var(--color-black);
+    font-size: 14px;
+}
+
+#modalities {
+    background-color: var(--color-white);
+    padding: 20px;
+}
+
+#modalities h2 {
+    color: var(--color-primary);
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.modalities-card {
+    background-color: var(--color-blue);
+    min-height: 106px;
+    padding: 20px 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.modalities-card h3 {
+    color: var(--color-white);
+    font-size: 20px;
+}
+
+.modalities-card p {
+    color: var(--ligth-grey);
+    font-size: 14px;
+}
+
+footer {
+    background-color: var(--color-black);
+    min-height: 262px;
+}
+
+.footer-content {
+    color: var(--color-white);
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.networks {
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.social-network {
+    display: flex;
+    align-items: center;
+}
+
+.social-network img {
+    height: 30px;
+    width: 30px;
+    margin: 10px;
+}
+
+.address {
+    margin-bottom: 30px;
+}
+
+.address p {
+    text-align: center;
+}
